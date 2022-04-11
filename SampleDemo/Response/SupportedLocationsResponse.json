@@ -1,0 +1,46 @@
+{
+    "supportedLocations": [
+        {
+           "id" : "Toronto",
+           "latitude" : 43.6532,
+           "longitude" : -79.3832
+        },
+        
+        {
+           "id" : "Markham",
+           "latitude" : 43.8561,
+           "longitude" : -79.3370
+        },
+        
+        {
+           "id" : "Hamilton",
+           "latitude" : 43.2557,
+           "longitude" : -79.8711
+        },
+        
+        {
+           "id" : "Barrie",
+           "latitude" : 44.3894,
+           "longitude" : -79.6903
+        },
+        
+        {
+           "id" : "Oshawa",
+           "latitude" : 43.8971,
+           "longitude" : -78.8658
+        },
+        
+        {
+           "id" : "Brampton",
+           "latitude" : 43.7315,
+           "longitude" : -79.7624
+        },
+        
+        {
+           "id" : "Missisauga",
+           "latitude" : 43.5890,
+           "longitude" : -79.6441
+        }
+        
+    ]
+}

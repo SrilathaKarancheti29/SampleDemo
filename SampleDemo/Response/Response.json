@@ -1,0 +1,170 @@
+{
+    "properties": [
+        {
+            "id" : "E29669913",
+                "cover_image_url": "https://i.postimg.cc/9X4ZvSqL/206-90-broadview-avenue-toronto-E5567399-1-p.jpg",
+                "gallery" : [
+                    "https://i.postimg.cc/9X4ZvSqL/206-90-broadview-avenue-toronto-E5567399-1-p.jpg",
+                    "https://i.postimg.cc/13yg5Yfh/206-90-broadview-avenue-toronto-E5567399-4-p.webp",
+                    "https://i.postimg.cc/xdCcLJv6/206-90-broadview-avenue-toronto-E5567399-5-p.webp",
+                    "https://i.postimg.cc/PxvJFgFZ/206-90-broadview-avenue-toronto-E5567399-6-p.webp",
+                    "https://i.postimg.cc/VLgf4sLp/206-90-broadview-avenue-toronto-E5567399-8-p.webp"
+                ],
+            "latitude" : 43.65822,
+            "longitude" : -79.34977,
+            "address" : "206-90 Broadview avenue",
+            "city" : "Toronto",
+            "size" : {
+                "bed" : 5,
+                "bath" : 5,
+                "sqft" : 4000
+            },
+            "price" : 400000,
+            "property_status" : "For Sale",
+            "description": "Enjoy Life In Leslieville. Great Cafes, Eateries, And Shops. This 1 Bed 1 Bath Suite Features An Open-Concept Functional Layout. Kitchen Has Quartz Countertops & Stainless Steel Appliances Overlooking The Dining Rm & Living Rm. Large Balcony Is Perfect For Entertaining And Has Gas Hookup For Bbq. Bedroom Has Built-In Closet Space & Large Windows. (29669913)",
+            "date_added" : "2022-04-01T04:33:35Z",
+            "date_updated" : "2022-04-07T04:33:35Z",
+            "walk_score" : 50,
+            "type": "Condo",
+            "age" : "20 Years Old"
+        },
+        
+        {
+            "id" : "C5567345",
+              "cover_image_url": "https://i.postimg.cc/FR0mSNBP/103-peckham-avenue-toronto-C5567345-1-p.jpg",
+              "gallery": [
+                "https://i.postimg.cc/vH0yfP0d/103-peckham-avenue-toronto-C5567345-2-p.jpg",
+                "https://i.postimg.cc/pXWx9NYZ/103-peckham-avenue-toronto-C5567345-5-p.jpg",
+                "https://i.postimg.cc/L5RSBGdm/103-peckham-avenue-toronto-C5567345-6-p.jpg",
+                "https://i.postimg.cc/sxcrnKy7/103-peckham-avenue-toronto-C5567345-7-p.jpg",
+                "https://i.postimg.cc/QNkhxN5C/103-peckham-avenue-toronto-C5567345-8-p.jpg "
+              ],
+            "latitude" : 43.8561,
+            "longitude" : -79.3370,
+            "address" : "103 Peckham avenue",
+            "city" : "Markham",
+            "size" : {
+                "bed" : 4,
+                "bath" : 4,
+                "sqft" : 1500
+            },
+            "price" : 1700000,
+            "property_status" : "For Sale",
+            "description": "Stop Looking! Here Is The Perfect Opportunity! Family Home Or Investment Property/Builder!!! Large Lot Overlooking The Park! Location Location Location!!! Put Your Personal Touch Or Rebuild. Close To Highways, Shopping, Schools, Ttc Steps From Your Front Door. (29808405)",
+            "date_added" : "2022-03-20T04:33:35Z",
+            "date_updated" : "2022-03-22T04:33:35Z",
+            "walk_score" : 80,
+            "type": "Detached House",
+            "age" : "0-5 Years Old"
+        },
+        
+        {
+            "id" : "C5552374",
+            "cover_image_url": "https://i.postimg.cc/C5J3C1H4/516-20-bloorview-place-toronto-C5567087-2-p.jpg",
+                "gallery" : [
+                    "https://i.postimg.cc/660xxjJG/516-20-bloorview-place-toronto-C5567087-3-p.jpg",
+                    "https://i.postimg.cc/VLkQfqmZ/516-20-bloorview-place-toronto-C5567087-4-p.jpg",
+                    "https://i.postimg.cc/xTprcXdf/516-20-bloorview-place-toronto-C5567087-5-p.jpg",
+                    "https://i.postimg.cc/PxvJFgFZ/206-90-broadview-avenue-toronto-E5567399-6-p.webp",
+                    "https://i.postimg.cc/VLgf4sLp/206-90-broadview-avenue-toronto-E5567399-8-p.webp"
+                ],
+            "latitude" : 43.2557,
+            "longitude" : -79.8711,
+            "address" : "20 - Bloorview Place",
+            "city" : "Hamilton",
+            "size" : {
+                "bed" : 1,
+                "bath" : 1,
+                "sqft" : 3000
+            },
+            "price" : 799000,
+            "property_status" : "For Sale",
+            "description": "Spacious & Bright Practical Layout 2 Bedroom Condo With Unobstructed Views! Immaculate Condition And Many Upgrades. Luxury Aria Condo, with 10 Ft Ceiling. Soaring Luxury Lobby And State Of The Arts Amenities, Steps From The Trails, Transportations, (Subway Stations) North York Hospital, Minutes Away From The Major Highway And More. (29745786)",
+            "date_added" : "2022-03-20T04:33:35Z",
+            "date_updated" : "2022-04-01T04:33:35Z",
+            "walk_score" : 90,
+            "type": "Condo",
+            "age" : "10 years old"
+        },
+        
+        {
+            "id" : "E5561970",
+                "cover_image_url": "https://i.postimg.cc/j54mK59r/39-hillside-avenue-toronto-W5567073-1-p.webp",
+                "gallery" : [
+                    "https://i.postimg.cc/yxfGgGsQ/39-hillside-avenue-toronto-W5567073-2-p.webp",
+                    "https://i.postimg.cc/SRQ5K4FY/39-hillside-avenue-toronto-W5567073-3-p.webp",
+                    "https://i.postimg.cc/Df5HMSLr/39-hillside-avenue-toronto-W5567073-5-p.webp",
+                    "https://i.postimg.cc/HsxRDT9f/39-hillside-avenue-toronto-W5567073-6-p.webp"
+                ],
+            "latitude" : 43.8971,
+            "longitude" : -78.8658,
+            "address" : "39 - Hillside avenue",
+            "city" : "Oshawa",
+            "size" : {
+                "bed" : 3,
+                "bath" : 3,
+                "sqft" : 2000
+            },
+            "price" : 1200000,
+            "property_status" : "For Sale",
+            "description": "Welcome To 39 Hillside In One Of Mimico's Most Desirable Pockets. This Wonderful 3 Bedroom, 2 Baths Home Is Situated In A Family- Friendly Neighbourhood With A Huge Park Just Steps Away. A Separate Dining And Living Room W/ Fireplace, Bright Kitchen Overlooking Sun Rm And Walk/Out To Deck - Great For Entertaining, Hardwood Throughout, 3 Good Size Bedrooms And Plenty Of Storage (29807623)",
+            "date_added" : "2022-03-01T04:33:35Z",
+            "date_updated" : "2022-04-07T04:33:35Z",
+            "walk_score" : 10,
+            "type": "Detached House",
+            "age" : "0-5 Years Old"
+        },
+        {
+            "id" : "C5567037",
+                "cover_image_url": "https://i.postimg.cc/VLVTz275/111-strathallan-boulevard-toronto-C5567037-1-p.webp",
+                "gallery" : [
+                    "https://i.postimg.cc/SxYPRV5d/111-strathallan-boulevard-toronto-C5567037-2-p.webp",
+                    "https://i.postimg.cc/vmWSLTG6/111-strathallan-boulevard-toronto-C5567037-3-p.webp"
+                ],
+            "latitude" : 43.653635,
+            "longitude" : -79.381102,
+            "address" : "111 Strathallan boulevard",
+            "city" : "Toronto",
+            "size" : {
+                "bed" : 6,
+                "bath" : 6,
+                "sqft" : 5000
+            },
+            "price" : 4295000,
+            "property_status" : "For Sale",
+            "description": "Majestic Lytton Park Home Boasting Over 4200 Total Square Feet Of Functional & Extensively Updated Living Space. Classic Centre Hall Floor Plan Offers Traditional Living/Dining W Hardwood Floors, Bay Windows, & Fireplace In The Living Room. The Gourmet Designer Kitchen Is A Culinary Dream, Featuring Integrated Miele Appliances & A Cozy Breakfast Area. Step Into The Spacious Family Room With Stone Flrs & Designer Finishes, & Which Walks Out The Private Backyard & Pool. The Second Floor Holds Three Sizeable Bedrooms.",
+            "date_added" : "2022-03-10T04:33:35Z",
+            "date_updated" : "2022-03-15T04:33:35Z",
+            "walk_score" : 29,
+            "type": "Detached House",
+            "age" : "5-10 years old"
+        },
+        {
+            "id" : "C5566759",
+                "cover_image_url": "https://i.postimg.cc/wMBfpkLh/541-steeles-avenue-west-toronto-40236377-1-p.jpg",
+                "gallery" : [
+                    "https://i.postimg.cc/6q1H5GfF/541-steeles-avenue-west-toronto-40236377-2-p.jpg",
+                    "https://i.postimg.cc/Nf5JCpgt/541-steeles-avenue-west-toronto-40236377-3-p.jpg",
+                    "https://i.postimg.cc/8P9y2M56/541-steeles-avenue-west-toronto-40236377-4-p.jpg",
+                    "https://i.postimg.cc/Y2XDxJB8/541-steeles-avenue-west-toronto-40236377-5-p.jpg"
+                ],
+            "latitude" : 43.80037,
+            "longitude" :  -79.49373,
+            "address" : "541 Steeles Avenue West",
+            "city" : "Missisauga",
+            "size" : {
+                "bed" : 2,
+                "bath" : 2,
+                "sqft" : 1200
+            },
+            "price" : 799000,
+            "property_status" : "For Sale",
+            "description": "Welcome To This Bright And Spacious Condo Townhouse. 4Bdrm (Converted To 3Bdrm), Freshly Painted Main Floor And 2nd Floor. Prime Location Of North York & Is Conveniently Located Close To Schools, Banks, Grocery Stores, Centre Point Mall, & A Fusion Of Multi-Cultural Eateries All Within Walking Distance. Minutes To 401, Steps To Ttc & Yrt Bus Stops That Can Take You Straight To Finch Station & York University.**** EXTRAS **** S/S Refrigerator, S/S Stove (2021), S/S Built/In Dishwasher, S/S Over The Range Microwave, Clothes Washer & Dryer. All Electric Light Fixtures, All Window Coverings. Quartz Counter Top, Backsplash. (29806878)",
+            "date_added" : "2022-04-05T04:33:35Z",
+            "date_updated" : "2022-04-07T04:33:35Z",
+            "walk_score" : 8,
+            "type": "Semi-Detached House",
+            "age" : "1 year old"
+        }
+    ]
+}
