@@ -7,11 +7,11 @@
 
 import UIKit
 
-class LocationSearchViewController: UIViewController {
+class LocationListViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var service: LocationSearchService?
+    var service: LocationListService?
     var items: [LocationViewModel] = []
 
     
@@ -45,7 +45,7 @@ class LocationSearchViewController: UIViewController {
 
 }
 
-extension LocationSearchViewController: UITableViewDelegate {
+extension LocationListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let item = items[indexPath.row]
         item.select()
@@ -53,7 +53,7 @@ extension LocationSearchViewController: UITableViewDelegate {
     }
 }
 
-extension LocationSearchViewController: UITableViewDataSource {
+extension LocationListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }

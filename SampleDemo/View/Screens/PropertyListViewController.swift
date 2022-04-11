@@ -75,8 +75,8 @@ extension PropertyListViewController {
     }
 
     @IBAction func searchButtonClicked(_ sender: Any) {
-        if let locationSearchVC = storyboard?.instantiateViewController(withIdentifier: "LocationSearchViewController") as? LocationSearchViewController {
-            locationSearchVC.service = LocationSearchService(networkSession: FakeNetworkSession.shared, currentLocation: currentLocation, select: { [weak self] location in
+        if let locationSearchVC = storyboard?.instantiateViewController(withIdentifier: "LocationSearchViewController") as? LocationListViewController {
+            locationSearchVC.service = LocationListService(networkSession: FakeNetworkSession.shared, currentLocation: currentLocation, select: { [weak self] location in
                 self?.locationSelected(placemark: location)
             })
             show(locationSearchVC, sender: self)

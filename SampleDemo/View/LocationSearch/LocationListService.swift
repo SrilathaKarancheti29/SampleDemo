@@ -12,7 +12,7 @@ enum LocationError: String, Error {
     case invalidLocation
 }
 
-struct LocationSearchService {
+struct LocationListService {
     var networkSession: FakeNetworkSession
     var currentLocation: CLLocation?
 
@@ -32,6 +32,7 @@ struct LocationSearchService {
     func locationViewModels(fromLocations locations: [SupportedLocation]) async -> [LocationViewModel] {
         var locationViewModel: [LocationViewModel] = []
         locationViewModel.append(currentLocationVM)
+        
         for location in locations {
             let clLocation = CLLocation(latitude: location.latitude, longitude: location.longitude)
             let placemark = try? await placemark(for: clLocation)
@@ -61,6 +62,7 @@ struct LocationSearchService {
             let placemarks =  try await CLGeocoder().reverseGeocodeLocation(location)
             return placemarks.first
         } catch {
+            print("Failed to reverse geocode location")
             throw error
         }
     }

@@ -19,8 +19,8 @@
 		1B488F0728047BE5003B4A30 /* SupportedLocationsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B488F0528047BE5003B4A30 /* SupportedLocationsResponse.json */; };
 		1B488F0828047BE5003B4A30 /* Response.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B488F0628047BE5003B4A30 /* Response.json */; };
 		1B488F0E28047C34003B4A30 /* PropertyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B488F0C28047C34003B4A30 /* PropertyListViewController.swift */; };
-		1B488F0F28047C34003B4A30 /* LocationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B488F0D28047C34003B4A30 /* LocationSearchViewController.swift */; };
-		1B488F1128047C3B003B4A30 /* LocationSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B488F1028047C3B003B4A30 /* LocationSearchService.swift */; };
+		1B488F0F28047C34003B4A30 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B488F0D28047C34003B4A30 /* LocationListViewController.swift */; };
+		1B488F1128047C3B003B4A30 /* LocationListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B488F1028047C3B003B4A30 /* LocationListService.swift */; };
 		1B488F1628047C45003B4A30 /* PropertyListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B488F1228047C44003B4A30 /* PropertyListTableViewCell.xib */; };
 		1B488F1728047C45003B4A30 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B488F1328047C44003B4A30 /* LocationTableViewCell.swift */; };
 		1B488F1828047C45003B4A30 /* LocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B488F1428047C44003B4A30 /* LocationTableViewCell.xib */; };
@@ -46,8 +46,8 @@
 		1B488F0528047BE5003B4A30 /* SupportedLocationsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SupportedLocationsResponse.json; sourceTree = "<group>"; };
 		1B488F0628047BE5003B4A30 /* Response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Response.json; sourceTree = "<group>"; };
 		1B488F0C28047C34003B4A30 /* PropertyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListViewController.swift; sourceTree = "<group>"; };
-		1B488F0D28047C34003B4A30 /* LocationSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchViewController.swift; sourceTree = "<group>"; };
-		1B488F1028047C3B003B4A30 /* LocationSearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchService.swift; sourceTree = "<group>"; };
+		1B488F0D28047C34003B4A30 /* LocationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
+		1B488F1028047C3B003B4A30 /* LocationListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationListService.swift; sourceTree = "<group>"; };
 		1B488F1228047C44003B4A30 /* PropertyListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyListTableViewCell.xib; sourceTree = "<group>"; };
 		1B488F1328047C44003B4A30 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
 		1B488F1428047C44003B4A30 /* LocationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationTableViewCell.xib; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		1B488F0A28047BF4003B4A30 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				1B488F0D28047C34003B4A30 /* LocationSearchViewController.swift */,
+				1B488F0D28047C34003B4A30 /* LocationListViewController.swift */,
 				1B488F0C28047C34003B4A30 /* PropertyListViewController.swift */,
 			);
 			path = Screens;
@@ -165,7 +165,7 @@
 		1B488F0B28047C08003B4A30 /* LocationSearch */ = {
 			isa = PBXGroup;
 			children = (
-				1B488F1028047C3B003B4A30 /* LocationSearchService.swift */,
+				1B488F1028047C3B003B4A30 /* LocationListService.swift */,
 			);
 			path = LocationSearch;
 			sourceTree = "<group>";
@@ -273,7 +273,7 @@
 				1B488F0028047BCE003B4A30 /* PropertyListViewModel.swift in Sources */,
 				1B488F0428047BD6003B4A30 /* UITableView+Extension.swift in Sources */,
 				1B488EE028047999003B4A30 /* AppDelegate.swift in Sources */,
-				1B488F1128047C3B003B4A30 /* LocationSearchService.swift in Sources */,
+				1B488F1128047C3B003B4A30 /* LocationListService.swift in Sources */,
 				1B488F2228047CBC003B4A30 /* SupportedLocations.swift in Sources */,
 				1B488F2428047D8C003B4A30 /* PropertyListServiceProvider.swift in Sources */,
 				1B488F1E28047CB3003B4A30 /* FakeNetworkSession.swift in Sources */,
@@ -282,7 +282,7 @@
 				1B488F0E28047C34003B4A30 /* PropertyListViewController.swift in Sources */,
 				1B488F1728047C45003B4A30 /* LocationTableViewCell.swift in Sources */,
 				1B488F2128047CBC003B4A30 /* PropertyList.swift in Sources */,
-				1B488F0F28047C34003B4A30 /* LocationSearchViewController.swift in Sources */,
+				1B488F0F28047C34003B4A30 /* LocationListViewController.swift in Sources */,
 				1B488F1928047C45003B4A30 /* PropertyListTableViewCell.swift in Sources */,
 				1B488EFF28047BCE003B4A30 /* LocationViewModel.swift in Sources */,
 			);
